@@ -174,11 +174,47 @@ button {
 
     height: 180px;
     width: 180px;
-    border: 3px solid #3882f6;
+    border: 5px solid #3882f6;
     border-radius: 15px;
     background-color: white;
 }
 
 .subtext {
     text-align: center;
+}
+
+.callaction {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20% 0px 20%;
+}
+
+.callmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: #3882f6;
+    width: 100%;
+    flex: 2;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.calltext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    color: white;
+}
+
+.callbut {
+    
+    height: 50px;
+    width: 150px; 
+    border: 2px solid white;
+    font-size: 18px;
 }
